@@ -1,3 +1,5 @@
+//Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum.
+
 import java.util.*;
 
 public class kadane {
