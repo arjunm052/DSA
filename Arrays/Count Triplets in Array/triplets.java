@@ -4,21 +4,24 @@ import java.util.*;
 public class triplets {
 
     public static int countTriplet(int[] arr) {
-        int count = 0;
+        int countTriplet(int arr[], int n) {
+       HashSet<Integer> set = new HashSet<>();
+       for (int i=0;i<arr.length;i++){
+           set.add(arr[i]);
+       }
+       
+       int count = 0;
         for(int i=0;i<arr.length-1;i++){
-            HashSet<Integer> set = new HashSet<>();
-            for(int j=i+1;j<arr.length;j++){
-                if(set.contains(arr[i]+arr[j]) || set.contains(arr[i]-arr[j]) || set.contains(arr[j]-arr[i])){
+           for(int j=i+1;j<arr.length;j++){
+                if(set.contains(arr[i]+arr[j])){
                     count++;
-                } else {
-                    set.add(arr[j]);
-                 }
+                } 
              }
         }
-
-            System.out.println("No. of triplets present is " + count);
+            System.out.println("No. of triplets is " + count);
             return count;
-        }
+    }
+        
 
     
 
