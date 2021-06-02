@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Arrays/Subarray With A Given Sum",
         "Arrays/Count Triplets in Array",
-        "Arrays/Subarray With A Given Sum"
+        "Arrays/Kadanes Algorithm"
     ]
 }
