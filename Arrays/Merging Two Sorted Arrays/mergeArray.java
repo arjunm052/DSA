@@ -2,8 +2,8 @@ import java.util.*;
 
 public class mergeArray {
     public static void merge(int[] arr1, int[] arr2) {
-        int i = 0, j = 0, k = arr2.length - 1;
-        while (i <= k && j < arr1.length) {
+        int i = 0, j = 0, k = arr1.length - 1;
+        while (i <= k && j < arr2.length) {
             if (arr1[i] < arr2[j]) {
                 i++;
             } else {

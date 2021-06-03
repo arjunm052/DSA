@@ -2,8 +2,6 @@
   "java.project.sourcePaths": [
     "Arrays/Subarray With A Given Sum",
     "Arrays/Count Triplets in Array",
-    "Arrays/Kadanes Algorithm",
-    "Arrays/Missing Number in Array",
     "Arrays/Merging Two Sorted Arrays"
   ]
 }
