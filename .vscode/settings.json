@@ -1,8 +1,9 @@
 {
   "java.project.sourcePaths": [
+    "Linked List /Circular Linked List",
     "Arrays/Subarray With A Given Sum",
     "Arrays/Merging Two Sorted Arrays",
     "Arrays/Count Triplets in Array",
-    "Linked List /Circular Linked List"
+    "Linked List /Double Linked List"
   ]
 }
