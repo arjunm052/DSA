@@ -1,11 +1,13 @@
 {
   "java.project.sourcePaths": [
+    "Stacks/Sort a stack",
+    "Stacks/Delete middle element of stack",
     "Linked List /Double Linked List",
     "Linked List /Circular Linked List",
     "Arrays/Subarray With A Given Sum",
     "Arrays/Sort an array Recursion",
     "Arrays/Merging Two Sorted Arrays",
     "Arrays/Count Triplets in Array",
-    "Stacks/Sort a stack"
+    "Stacks/Reverse a stack"
   ]
 }

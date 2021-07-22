@@ -1,31 +1,31 @@
 import java.util.*;
 
-public class sort {
+public class reverse {
     public static void main(String[] args) {
-        int[] arr =  {13, 7, 6, 45, 21, 9, 2, 100};
+        int[] arr =  {6,5,4,3,2,1};
         Stack<Integer> st = new Stack<>();
         for(int x: arr){
             st.push(x);
         }
-        recsort(st);
+        reverseS(st);
         System.out.println(st);
     }
 
-    private static void recsort(Stack<Integer> st) {
+    public static void reverseS(Stack<Integer> st) {
         if(st.size()==1){
             return;
         }
 
         int temp = st.pop();
-        recsort(st);
+        reverseS(st);
         insert(st,temp);
     }
 
-    private static void insert(Stack<Integer> st, int temp) {
-        if(st.size()==0 || st.peek()<=temp){
+    public static void insert(Stack<Integer> st,int temp) {
+        if(st.size()==0){
             st.push(temp);
             return;
-        } 
+        }
 
         int val = st.pop();
         insert(st,temp);
