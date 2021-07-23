@@ -2,10 +2,19 @@
   "java.project.sourcePaths": [
     "Linked List /Double Linked List",
     "Linked List /Circular Linked List",
+    "Arrays/Union and Intersection of Two Arrays",
     "Arrays/Subarray With A Given Sum",
+    "Arrays/Sort an array of 0,1 and 2",
+    "Arrays/Segregate positive and negative",
     "Arrays/Merging Two Sorted Arrays",
+    "Arrays/Merge two sorted Arrays in O(1) space)",
     "Arrays/Kth Max and KthMin",
+    "Arrays/Kadane's Algorithm",
+    "Arrays/Find Duplicate in Array",
+    "Arrays/Cyclically rotate an array by one",
     "Arrays/Count Triplets in Array",
-    "Arrays/Sort an array of 0,1 and 2"
+    "Arrays/Common elements in three sorted arrays",
+    "Arrays/Best time to buy and sell stock",
+    "Arrays/Find if there is a subarray with sum zero "
   ]
 }
