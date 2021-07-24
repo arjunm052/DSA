@@ -11,10 +11,12 @@
     "Arrays/Kth Max and KthMin",
     "Arrays/Kadane's Algorithm",
     "Arrays/Find Duplicate in Array",
+    "Arrays/Element appearing more than n/k times",
     "Arrays/Cyclically rotate an array by one",
     "Arrays/Count Triplets in Array",
     "Arrays/Common elements in three sorted arrays",
     "Arrays/Best time to buy and sell stock",
-    "Arrays/Find if there is a subarray with sum zero "
+    "Arrays/Array subset of another array",
+    "Arrays/Countr triplets equal to a given sum"
   ]
 }
