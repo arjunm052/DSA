@@ -1,0 +1,67 @@
+import java.util.*;
+
+public class WGraph {
+
+    static class Edge{
+        int src;
+        int dest;
+        int wt;
+
+        Edge(int src,int dest,int wt){
+            this.src = src;
+            this.dest = dest;
+            this.wt = wt;
+        }
+    }
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter no. of Vertices");
+        int v = sc.nextInt();
+        System.out.println("Enter no. of edges");
+        int e = sc.nextInt();
+
+        ArrayList<Edge>[] graph = new ArrayList[v];
+        for(int i=0;i<v;i++){
+            graph[i] = new ArrayList<Edge>();
+        }
+
+        System.out.println("Enter the edges: ");
+        for(int i=0;i<e;i++){
+            int src = sc.nextInt();
+            int dest = sc.nextInt();
+            int wt = sc.nextInt();
+            graph[src].add(new Edge(src,dest,wt));
+            graph[dest].add(new Edge(dest,src,wt));
+        }
+
+        System.out.println("Enter source and destination: ");
+        int source = sc.nextInt();
+        int dest = sc.nextInt();
+
+        boolean[] visited = new boolean[v];
+        boolean path = hasPath(graph, source, dest,visited);
+        if(path){
+            System.out.println("Path Exists");
+        }else{
+            System.out.println("Path does not exist");
+        }
+
+        sc.close();
+    }
+
+    public static boolean hasPath(ArrayList<Edge>[] graph,int src,int dest,boolean[] visited) {
+        if(src==dest){
+            return true;
+        }
+        visited[src]=true;
+        for(Edge edge: graph[src]){
+            if(!visited[edge.dest]){
+                boolean hasNbrPath = hasPath(graph,edge.dest,dest,visited);
+                if(hasNbrPath) return true;
+            }
+        }
+
+        return false;
+    }
+}

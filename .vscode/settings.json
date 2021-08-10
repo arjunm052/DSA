@@ -13,10 +13,11 @@
     "Arrays/Find Duplicate in Array",
     "Arrays/Element appearing more than n/k times",
     "Arrays/Cyclically rotate an array by one",
+    "Arrays/Countr triplets equal to a given sum",
     "Arrays/Count Triplets in Array",
     "Arrays/Common elements in three sorted arrays",
     "Arrays/Best time to buy and sell stock",
     "Arrays/Array subset of another array",
-    "Arrays/Countr triplets equal to a given sum"
+    "Graphs/Adjacency List BFS-DFS"
   ]
 }
