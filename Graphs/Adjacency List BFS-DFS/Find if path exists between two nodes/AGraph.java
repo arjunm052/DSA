@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class WGraph {
+public class AGraph {
 
     static class Edge{
         int src;

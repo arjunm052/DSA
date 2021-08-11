@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "Adjacency List BFS-DFS/Get Connected Components of a Graph",
+    "Adjacency List BFS-DFS/Find largest and smallest path",
+    "Adjacency List BFS-DFS/Count number of islands ",
+    "Adjacency List BFS-DFS/Perfect Friends",
+    ".",
+    "Adjacency List BFS-DFS/Hamiltonian Path and Cycle"
+  ]
+}
