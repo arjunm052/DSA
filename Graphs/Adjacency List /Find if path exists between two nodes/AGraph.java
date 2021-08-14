@@ -1,3 +1,5 @@
+//Find if a path exists between two given nodes in a graph
+
 import java.util.*;
 
 public class AGraph {

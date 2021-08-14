@@ -1,3 +1,5 @@
+//Print all the paths that exist between two given nodes in a graph
+
 import java.util.*;
 
 public class BGraph {
