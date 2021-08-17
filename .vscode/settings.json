@@ -1,8 +1,10 @@
 {
   "java.project.sourcePaths": [
+    "Maths/Print Prime Factors of a Number",
     "Linked List /Double Linked List",
     "Linked List /Circular Linked List",
     "Graphs/Adjacency List BFS-DFS",
+    "Graphs",
     "Arrays/Union and Intersection of Two Arrays",
     "Arrays/Subarray With A Given Sum",
     "Arrays/Sort an array of 0,1 and 2",
@@ -19,6 +21,6 @@
     "Arrays/Common elements in three sorted arrays",
     "Arrays/Best time to buy and sell stock",
     "Arrays/Array subset of another array",
-    "Graphs"
+    "Maths/Sieve of Eratisthenes"
   ]
 }
