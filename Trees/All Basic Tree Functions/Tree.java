@@ -269,6 +269,45 @@ class BinaryTree {
             return 0;
         return a + b + 1;
     }
+
+    // PRINT SPIRAL FORM
+    public void printInSpiralForm(Node node) {
+        Stack<Node> s1 = new Stack<Node>();
+        Stack<Node> s2 = new Stack<Node>();
+
+        s1.push(node);
+        while (!s1.isEmpty() || !s2.isEmpty()) {
+
+            while (!s1.isEmpty()) {
+                Node tmp = s1.pop();
+                System.out.print(tmp.data + " ");
+
+                if (tmp.left != null) {
+                    s2.push(tmp.left);
+                }
+
+                if (tmp.right != null) {
+                    s2.push(tmp.right);
+                }
+            }
+            System.out.println();
+
+            while (!s2.isEmpty()) {
+                Node tmp = s2.pop();
+                System.out.print(tmp.data + " ");
+
+                if (tmp.right != null) {
+                    s1.push(tmp.right);
+                }
+
+                if (tmp.left != null) {
+                    s1.push(tmp.left);
+                }
+            }
+            System.out.println();
+        }
+    }
+
 }
 
 public class Tree {
@@ -285,5 +324,6 @@ public class Tree {
         System.out.println(tree.leftView(tree.root)); // Left View
         System.out.println(tree.rightView(tree.root)); // Right View
         System.out.println(tree.isBalanced(tree.root));
+        tree.printInSpiralForm(tree.root);
     }
 }
